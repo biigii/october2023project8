@@ -1,35 +1,25 @@
-/* ::after and ::before */
-.heading {
-  text-align: center;
-  font-size: 4em;
-  text-transform: capitalize;
-  position: relative;
+@font-face {
+  /* font-family: myfont; */
+  font-family: 'My Awesome Font';
+  src: url('../fonts/PlaypenSans-VariableFont_wght.ttf');
 }
 
-.heading::before {
-  content: '';
-  display: inline-block;
-  width: 10px;
-  height: 50px;
-  position: relative;
-  background-color: #db1d1d;
-  right: 12px;
-  border-bottom-left-radius: 10px;
+@font-face {
+  font-family: Kenia;
+  src: url('../fonts/Kenia-Regular.ttf');
 }
 
-.heading::after {
-  content: '';
-  display: inline-block;
-  width: 100px;
-  height: 10px;
-  background-color: #db1d1d;
-  position: relative;
-  top: -50px;
-  left: -200px;
-  border-top-right-radius: 10px;
+h1 {
+  color: #f11;
+  font-size: 6em;
+  /* font-family: 'Franklin Gothic Medium',  sans-serif; */
+  /* font-family: 'My Awesome Font', Arial, Helvetica, sans-serif; */
 }
 
-
+h2 {
+  font-size: 6em;
+  /* font-family: Kenia; */
+}
 
 
 
