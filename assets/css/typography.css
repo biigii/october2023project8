@@ -1,0 +1,54 @@
+/* ::after and ::before */
+.heading {
+  text-align: center;
+  font-size: 4em;
+}
+
+.heading:hover {
+  color: var(--brand-txt)
+}
+
+.heading::after {
+  /* must have the content property */
+   /* content: 'world'; */
+   /* color: #f11; */
+   content: '';
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-color: var(--brand-txt);
+   border-radius: 50%;
+}
+
+.heading::before {
+  /* content: 'world' */
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: var(--brand);
+  border-radius: 50%;
+}
+
+p::selection {
+  background-color: purple;
+}
+
+p::first-letter {
+  font-size: 3em;
+}
+
+p::first-line {
+  text-decoration: underline;
+}
+/* p::before {
+  content: '\2606';
+  color: #f22;
+  font-size: 3em;
+}
+
+p::after {
+  content: '\263B';
+  color: #00f;
+  font-size: 3em;
+} */
