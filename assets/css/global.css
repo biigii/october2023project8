@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border and content and padding all included */
+  box-sizing: border-box;
+}
+
+html, 
+body {
+  height: 100%;
+}
+
+p {
+  /* this needs to be removed  after development*/
+  text-align: justify;
+}
