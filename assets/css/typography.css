@@ -30,25 +30,4 @@
   border-radius: 50%;
 }
 
-p::selection {
-  background-color: purple;
-}
 
-p::first-letter {
-  font-size: 3em;
-}
-
-p::first-line {
-  text-decoration: underline;
-}
-/* p::before {
-  content: '\2606';
-  color: #f22;
-  font-size: 3em;
-}
-
-p::after {
-  content: '\263B';
-  color: #00f;
-  font-size: 3em;
-} */
