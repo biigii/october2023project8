@@ -4,30 +4,14 @@
   font-size: 4em;
 }
 
-.heading:hover {
-  color: var(--brand-txt)
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
-.heading::after {
-  /* must have the content property */
-   /* content: 'world'; */
-   /* color: #f11; */
-   content: '';
-   display: inline-block;
-   width: 50px;
-   height: 50px;
-   background-color: var(--brand-txt);
-   border-radius: 50%;
-}
 
-.heading::before {
-  /* content: 'world' */
-  content: '';
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  background-color: var(--brand);
-  border-radius: 50%;
-}
+
+
 
 
